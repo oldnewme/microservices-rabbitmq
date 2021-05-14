@@ -9,6 +9,7 @@ class QueueService {
         let channel = await connection.createChannel();
         await channel.prefetch(1);
         await this.consumeQueue(connection, channel, {config});
+        console.log("Consumer started")
       }
 
       static async consumeQueue(connection, channel, {config}){
