@@ -1,0 +1,16 @@
+{
+    "name": "ms1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "ms1.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "amqplib": "^0.7.1",
+        "aws-sdk": "^2.896.0",
+        "dotenv": "^6.2.0"
+    },
+    "author": "",
+    "license": "ISC"
+}
