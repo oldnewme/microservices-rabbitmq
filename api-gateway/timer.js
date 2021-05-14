@@ -12,7 +12,6 @@ let config = {
     worker:handleData,
     listenToQueue: process.env.LISTEN_TO_QUEUE,
     messageQueueConnectionString:process.env.CLOUDAMQP_URL
-    
 }
 
 QueueService.listenToQueue(config); 
